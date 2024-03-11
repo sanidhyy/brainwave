@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
@@ -6,7 +7,6 @@ import MenuSvg from "../assets/svg/MenuSvg";
 import { navigation } from "../constants";
 import Button from "./Button";
 import { HambugerMenu } from "./design/Header";
-import { useState } from "react";
 
 const Header = () => {
   const pathname = useLocation();
