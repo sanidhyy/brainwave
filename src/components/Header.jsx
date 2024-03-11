@@ -13,12 +13,13 @@ const Header = () => {
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNavigation = () => {
-    setOpenNavigation((prevNavigation) => {
-      if (prevNavigation) enablePageScroll();
-      else disablePageScroll();
-
-      return !prevNavigation;
-    });
+    if (openNavigation) {
+      setOpenNavigation(false);
+      enablePageScroll();
+    } else {
+      setOpenNavigation(true);
+      disablePageScroll();
+    }
   };
 
   const handleClick = () => {
