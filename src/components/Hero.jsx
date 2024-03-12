@@ -45,7 +45,7 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             Unleast the power of AI within Brainwave. Upgrade your productivity
             with
-            <span className="inline-block relative">
+            <span className="inline-block relative font-semibold">
               Brainwave
               <img
                 src={curve}
