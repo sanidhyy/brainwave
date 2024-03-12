@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { service1, service2, service3, check } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import Generating from "./Generating";
@@ -11,6 +12,8 @@ import {
 } from "./design/Services";
 
 const Services = () => {
+  const [isPlaying, setIsPlaying] = useState(true);
+
   return (
     <Section id="how-to-use">
       <div className="container">
@@ -116,14 +119,16 @@ const Services = () => {
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <img
                   src={service3}
-                  className="w-full h-full object-cover"
+                  className={`w-full h-full object-cover ${
+                    isPlaying && "animate-pulse"
+                  }`}
                   width={520}
                   height={400}
                   alt="Scary Robot"
                 />
 
-                <VideoChatMessage />
-                <VideoBar />
+                <VideoChatMessage isPlaying={isPlaying} />
+                <VideoBar isPlaying={isPlaying} setIsPlaying={setIsPlaying} />
               </div>
             </div>
           </div>
