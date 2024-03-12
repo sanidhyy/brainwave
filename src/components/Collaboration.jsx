@@ -1,4 +1,4 @@
-import { brainwaveSymbol, check } from "../assets";
+import { brainwaveSymbol, check, curve } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
@@ -10,7 +10,17 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seemless collaboration
+            AI Chat App for seemless
+            <span className="inline-block relative font-semibold">
+              collaboration
+              <img
+                src={curve}
+                className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
+                width={624}
+                height={28}
+                alt="Curve"
+              />
+            </span>
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
