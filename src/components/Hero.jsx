@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { ScrollParallax } from "react-just-parallax";
+import Typewriter from "typewriter-effect";
 
 import { curve, heroBackground, robot } from "../assets";
 import { heroIcons } from "../constants";
@@ -24,7 +25,26 @@ const Hero = () => {
       <div ref={parallaxRef} className="container relative">
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilities of&nbsp;AI&nbsp;Chatting with{" "}
+            Explore the Possibilities of
+            <br />
+            <Typewriter
+              options={{
+                strings: [
+                  "AI Chatting",
+                  "Photo Editing",
+                  "Video Generation",
+                  "Image Generation",
+                  "Code Generation",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </h1>
+
+          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
+            Unleast the power of AI within Brainwave. Upgrade your productivity
+            with
             <span className="inline-block relative">
               Brainwave
               <img
@@ -35,11 +55,7 @@ const Hero = () => {
                 alt="Curve"
               />
             </span>
-          </h1>
-
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleast the power of AI within Brainwave. Upgrade your productivity
-            with Brainwave, the open AI chat app.
+            , the open AI chat app.
           </p>
 
           <Button href="/pricing" white>
