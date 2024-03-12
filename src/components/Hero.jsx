@@ -58,7 +58,7 @@ const Hero = () => {
             , the open AI chat app.
           </p>
 
-          <Button href="/pricing" white>
+          <Button href="#pricing" white>
             Get started
           </Button>
         </div>
