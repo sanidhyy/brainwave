@@ -35,6 +35,7 @@ import {
   twitter,
   yourlogo,
 } from "../assets";
+import { links } from "../config";
 
 export const navigation = [
   {
@@ -59,15 +60,10 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
+    title: "Source Code",
+    url: links.sourceCode,
     onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
+    external: true,
   },
 ];
 

@@ -4,6 +4,7 @@ import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import { brainwave } from "../assets";
 import MenuSvg from "../assets/svg/MenuSvg";
+import { links } from "../config";
 import { navigation } from "../constants";
 import Button from "./Button";
 import { HambugerMenu } from "./design/Header";
@@ -56,6 +57,8 @@ const Header = () => {
               <a
                 key={item.id}
                 href={item.url}
+                target={item.external ? "_blank" : "_self"}
+                rel={item.external && "noreferrer noopener"}
                 onClick={handleClick}
                 className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
                   item.onlyMobile && "lg:hidden"
@@ -73,14 +76,8 @@ const Header = () => {
           <HambugerMenu />
         </nav>
 
-        <a
-          href="#"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
-        >
-          New Account
-        </a>
-        <Button className="hidden lg:flex" href="#">
-          Sign in
+        <Button className="hidden lg:flex" href={links.sourceCode} external>
+          Source Code
         </Button>
 
         <Button
