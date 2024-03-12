@@ -216,6 +216,7 @@ export const pricing = [
       "Personalized recommendations based on your preferences",
       "Ability to explore the app and its features without any cost",
     ],
+    premium: false,
   },
   {
     id: "1",
@@ -227,6 +228,7 @@ export const pricing = [
       "An analytics dashboard to track your conversations",
       "Priority support to solve issues quickly",
     ],
+    premium: true,
   },
   {
     id: "2",
@@ -238,6 +240,7 @@ export const pricing = [
       "Personalized recommendations based on your preferences",
       "Ability to explore the app and its features without any cost",
     ],
+    premium: false,
   },
 ];
 
