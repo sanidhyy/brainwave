@@ -26,8 +26,20 @@ export const Gradient = () => {
 
 export const PhotoChatMessage = () => {
   return (
-    <div className="absolute top-8 right-8 max-w-[17.5rem] py-6 px-8 bg-black rounded-t-xl rounded-bl-xl font-code text-base lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]">
-      Hey Brainwave, enhance this photo
+    <div className="absolute top-8 right-8 w-[18rem] h-[6rem] py-6 px-8 bg-black rounded-t-xl rounded-bl-xl font-code text-base lg:top-16 lg:right-[8.75rem]">
+      <Typewriter
+        options={{
+          strings: [
+            "Hey Brainwave, enhance this photo.",
+            "Hey Brainwave, give this photo a boost.",
+            "Brainwave, enhance the details in this photo.",
+            "Activate Brainwave mode to refine this photo.",
+            "Brainwave, apply your magic to this photo.",
+          ],
+          autoStart: true,
+          loop: true,
+        }}
+      />
       <ChatBubbleWing className="absolute left-full bottom-0" />
     </div>
   );
