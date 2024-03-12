@@ -71,7 +71,7 @@ const Collaboration = () => {
                   <div
                     className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
                       i * 45
-                    }`}
+                    } animate-pulse`}
                   >
                     <img
                       src={app.icon}
