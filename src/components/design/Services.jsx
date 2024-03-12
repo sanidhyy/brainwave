@@ -70,7 +70,7 @@ export const VideoChatMessage = ({ isPlaying }) => {
           <img
             src={loading}
             alt="Loading"
-            className="w-4 h-4 animate-spin pointer-events-none select-none pointer-events-none select-none"
+            className="w-4 h-4 animate-spin pointer-events-none select-none"
           />
         ) : (
           <span>just now</span>

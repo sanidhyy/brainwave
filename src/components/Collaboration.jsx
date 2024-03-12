@@ -27,7 +27,13 @@ const Collaboration = () => {
             {collabContent.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-center">
-                  <img src={check} width={24} alt="check" height={24} />
+                  <img
+                    src={check}
+                    width={24}
+                    alt="check"
+                    height={24}
+                    className="pointer-events-none select-none"
+                  />
                   <h6 className="body-2 ml-5">{item.title}</h6>
                 </div>
 
