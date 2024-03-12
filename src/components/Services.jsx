@@ -100,8 +100,9 @@ const Services = () => {
                     >
                       <div
                         className={
-                          i === 2 &&
-                          "flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]"
+                          i === 2
+                            ? "flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]"
+                            : ""
                         }
                       >
                         <img
