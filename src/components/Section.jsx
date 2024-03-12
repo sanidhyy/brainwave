@@ -23,7 +23,7 @@ const Section = ({
         aria-hidden
       />
       <div
-        className="hidden absolute top-0 left-5 w-0.25 h-full bg-stroke-1 pointer-events-none md:block lg:right-7.5 xl:right-10"
+        className="hidden absolute top-0 right-5 w-0.25 h-full bg-stroke-1 pointer-events-none md:block lg:right-7.5 xl:right-10"
         aria-hidden
       />
 
