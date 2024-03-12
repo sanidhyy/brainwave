@@ -40,7 +40,7 @@ const Roadmap = () => (
                       <img
                         className={`mr-2.5 ${
                           item.status !== "done" && "animate-spin"
-                        }`}
+                        } pointer-events-none select-none`}
                         src={item.status === "done" ? check2 : loading1}
                         width={16}
                         height={16}

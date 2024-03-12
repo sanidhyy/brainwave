@@ -67,7 +67,11 @@ export const VideoChatMessage = ({ isPlaying }) => {
       </div>
       <div className="tagline absolute right-2.5 bottom-1 text-[0.625rem] text-n-3 uppercase">
         {isPlaying ? (
-          <img src={loading} alt="Loading" className="w-4 h-4 animate-spin" />
+          <img
+            src={loading}
+            alt="Loading"
+            className="w-4 h-4 animate-spin pointer-events-none select-none pointer-events-none select-none"
+          />
         ) : (
           <span>just now</span>
         )}
