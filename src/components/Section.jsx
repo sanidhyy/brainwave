@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import SectionSvg from "../assets/svg/SectionSvg";
 
 const Section = ({
@@ -9,7 +11,15 @@ const Section = ({
   children,
 }) => {
   return (
-    <div
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        duration: 1.5,
+      }}
+      viewport={{
+        once: true,
+      }}
       id={id}
       className={`relative ${
         customPaddings ||
@@ -39,7 +49,7 @@ const Section = ({
           <SectionSvg crossesOffset={`${crossesOffset || ""}`} />
         </>
       )}
-    </div>
+    </motion.section>
   );
 };
 
