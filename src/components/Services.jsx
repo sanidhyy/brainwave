@@ -4,6 +4,7 @@ import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import Generating from "./Generating";
 import Heading from "./Heading";
 import Section from "./Section";
+import { curve } from "../assets";
 import {
   Gradient,
   PhotoChatMessage,
@@ -18,7 +19,21 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators"
+          title={
+            <>
+              Generative AI made for{" "}
+              <span className="inline-block relative font-semibold">
+                creators
+                <img
+                  src={curve}
+                  className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
+                  width={624}
+                  height={28}
+                  alt="Curve"
+                />
+              </span>
+            </>
+          }
           text="Brainwave unlocks the potential of AI-powered applications."
         />
 

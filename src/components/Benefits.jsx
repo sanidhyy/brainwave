@@ -4,6 +4,7 @@ import { benefits } from "../constants";
 import { GradientLight } from "./design/Benefits";
 import Heading from "./Heading";
 import Section from "./Section";
+import { curve } from "../assets";
 
 const Benefits = () => {
   return (
@@ -11,7 +12,21 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          title={
+            <>
+              Chat Smarter, Not Harder with{" "}
+              <span className="inline-block relative font-semibold">
+                Brainwave
+                <img
+                  src={curve}
+                  className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
+                  width={624}
+                  height={28}
+                  alt="Curve"
+                />
+              </span>
+            </>
+          }
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
