@@ -16,7 +16,7 @@
     "react-just-parallax": "^3.1.16",
     "react-router-dom": "^7.5.3",
     "scroll-lock": "^2.1.5",
-    "typewriter-effect": "^2.21.0"
+    "typewriter-effect": "^2.22.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.12",
