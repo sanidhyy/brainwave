@@ -36,6 +36,7 @@ import {
   yourlogo,
 } from "../assets";
 import { links } from "../config";
+import { FaSquareXTwitter } from "react-icons/fa6"; // New Twitter X icon
 
 export const navigation = [
   {
@@ -303,7 +304,7 @@ export const socials = [
   {
     id: "1",
     title: "Twitter",
-    iconUrl: twitter,
+    iconUrl: FaSquareXTwitter, // ✅ Updated to new X logo
     url: "https://twitter.com", // ✅ Updated
   },
   {

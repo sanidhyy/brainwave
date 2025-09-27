@@ -1,5 +1,6 @@
 import { socials } from "../constants";
 import Section from "./Section";
+import React from "react";
 
 const Footer = () => {
   return (
@@ -20,12 +21,17 @@ const Footer = () => {
               rel="noreferrer noopener"
               className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-colors hover:bg-n-6"
             >
-              <img
-                src={social.iconUrl}
-                alt={social.title}
-                width={16}
-                height={16}
-              />
+              {typeof social.iconUrl === "string" ? (
+                <img
+                  src={social.iconUrl}
+                  alt={social.title}
+                  width={16}
+                  height={16}
+                />
+              ) : (
+                // Render React component icon (e.g., FaSquareXTwitter)
+                React.createElement(social.iconUrl, { size: 16 , color: '#8E8D91' })
+              )}
             </a>
           ))}
         </ul>
