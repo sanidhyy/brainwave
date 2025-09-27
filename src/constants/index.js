@@ -34,7 +34,8 @@ import {
   telegram,
   twitter,
   yourlogo,
-} from "../assets";
+} from "../assets"
+
 import { links } from "../config";
 
 export const navigation = [
@@ -298,30 +299,30 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "#",
+    url: "https://discord.com", // ✅ Updated
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://twitter.com", // ✅ Updated
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com", // ✅ Updated
   },
   {
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
-    url: "#",
+    url: "https://telegram.org", // ✅ Updated
   },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.facebook.com", // ✅ Updated
   },
 ];
