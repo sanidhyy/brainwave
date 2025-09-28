@@ -299,30 +299,30 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "https://discord.com", // ✅ Updated
+    url: "https://discord.com",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "https://twitter.com", // ✅ Updated
+    url: "https://twitter.com",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "https://www.instagram.com", // ✅ Updated
+    url: "https://www.instagram.com",
   },
   {
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
-    url: "https://telegram.org", // ✅ Updated
+    url: "https://telegram.org",
   },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "https://www.facebook.com", // ✅ Updated
+    url: "https://www.facebook.com",
   },
 ];
