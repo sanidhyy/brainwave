@@ -29,8 +29,8 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          tag="Bắt đầu với ReVeo Studio"
+          title="Chọn gói phù hợp với bạn"
         />
 
         <div className="relative">
@@ -44,7 +44,7 @@ const Pricing = () => {
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
             href="#"
           >
-            See the full details
+            Xem chi tiết bảng giá
           </a>
         </div>
       </div>

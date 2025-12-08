@@ -1,7 +1,7 @@
 import Typewriter from "typewriter-effect";
 
 import {
-  brainwaveWhiteSymbol,
+  reveoWhiteSymbol,
   gradient,
   loading,
   pause,
@@ -30,11 +30,11 @@ export const PhotoChatMessage = () => {
       <Typewriter
         options={{
           strings: [
-            "Hey Brainwave, enhance this photo.",
-            "Hey Brainwave, give this photo a boost.",
-            "Brainwave, enhance the details in this photo.",
-            "Activate Brainwave mode to refine this photo.",
-            "Brainwave, apply your magic to this photo.",
+            "Hey ReVeo Studio, tạo video cho sản phẩm này.",
+            "ReVeo Studio, chỉnh sửa video này giúp tôi.",
+            "ReVeo Studio, thêm hiệu ứng cho video.",
+            "Kích hoạt ReVeo Studio để tạo video.",
+            "ReVeo Studio, tạo video bán hàng ngay.",
           ],
           autoStart: true,
           loop: true,
@@ -59,10 +59,10 @@ export const VideoChatMessage = ({ isPlaying }) => {
       />
       <div className="absolute left-5 -bottom-[1.125rem] flex items-center justify-center w-[2.25rem] h-[2.25rem] bg-color-1 rounded-[0.75rem]">
         <img
-          src={brainwaveWhiteSymbol}
+          src={reveoWhiteSymbol}
           width={26}
           height={26}
-          alt="Brainwave"
+          alt="ReVeo Studio"
         />
       </div>
       <div className="tagline absolute right-2.5 bottom-1 text-[0.625rem] text-n-3 uppercase">

@@ -18,20 +18,20 @@ const PricingList = () => {
           <div className="flex items-center h-[5.5rem] mb-6">
             {plan.price && (
               <>
-                <div className="h-3">$</div>
                 <div className="text-[5.5rem] leading-none font-bold">
                   {plan.price}
                 </div>
+                <div className="h-3 ml-1">₫/tháng</div>
               </>
             )}
           </div>
 
           <Button
             className="w-full mb-6"
-            href={plan.price ? "#" : "mailto:info@example.com"}
+            href={plan.price ? "#" : "mailto:info@reveo.art"}
             white={!plan.premium}
           >
-            {plan.price ? "Get started" : "Contact us"}
+            {plan.price ? "Bắt đầu" : "Liên hệ"}
           </Button>
 
           <ul>

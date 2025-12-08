@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { service1, service2, service3, check } from "../assets";
-import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import { reveoServices, reveoServicesIcons } from "../constants";
 import Generating from "./Generating";
 import Heading from "./Heading";
 import Section from "./Section";
@@ -16,14 +16,14 @@ const Services = () => {
   const [isPlaying, setIsPlaying] = useState(true);
 
   return (
-    <Section id="how-to-use">
+    <Section id="features">
       <div className="container">
         <Heading
           title={
             <>
-              Generative AI made for{" "}
+              AI Video tạo cho{" "}
               <span className="inline-block relative font-semibold">
-                creators
+                người bán hàng
                 <img
                   src={curve}
                   className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
@@ -34,7 +34,7 @@ const Services = () => {
               </span>
             </>
           }
-          text="Brainwave unlocks the potential of AI-powered applications."
+          text="ReVeo Studio giúp seller TMĐT tạo video bán hàng nhanh - đẹp - chuẩn nền tảng."
         />
 
         <div className="relative">
@@ -51,12 +51,12 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+              <h4 className="h4 mb-4">AI Video Tự Động</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications.
+                Upload ảnh sản phẩm, AI tự động tạo video bán hàng chuyên nghiệp trong vài phút.
               </p>
               <ul className="body-2">
-                {brainwaveServices.map((item, i) => (
+                {reveoServices.map((item, i) => (
                   <li
                     key={i}
                     className="flex items-start py-4 border-t border-n-6"
@@ -91,10 +91,10 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
+                <h4 className="h4 mb-4">Chỉnh sửa nhanh</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                  Sửa text, đổi giọng đọc, thay nhạc nền, thêm logo shop.
+                  Không cần biết edit video phức tạp!
                 </p>
               </div>
 
@@ -103,21 +103,20 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Tạo video hàng loạt</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world&apos;s most powerful AI photo and video art
-                  generation engine. What will you create?
+                  Upload nhiều sản phẩm cùng lúc, AI tạo video cho tất cả.
+                  Tiết kiệm thời gian cho seller và agency.
                 </p>
 
                 <ul className="flex items-center justify-between">
-                  {brainwaveServicesIcons.map((icon, i) => (
+                  {reveoServicesIcons.map((icon, i) => (
                     <li
                       key={i}
-                      className={`flex items-center justify-center rounded-2xl ${
-                        i === 2
-                          ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient md:w-[4.5rem] md:h-[4.5rem]"
-                          : "flex w-10 h-10 bg-n-6 md:w-15 md:h-15"
-                      }`}
+                      className={`flex items-center justify-center rounded-2xl ${i === 2
+                        ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient md:w-[4.5rem] md:h-[4.5rem]"
+                        : "flex w-10 h-10 bg-n-6 md:w-15 md:h-15"
+                        }`}
                     >
                       <div
                         className={
@@ -141,9 +140,8 @@ const Services = () => {
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <img
                   src={service3}
-                  className={`w-full h-full object-cover ${
-                    isPlaying && "animate-pulse"
-                  } pointer-events-none select-none`}
+                  className={`w-full h-full object-cover ${isPlaying && "animate-pulse"
+                    } pointer-events-none select-none`}
                   width={520}
                   height={400}
                   alt="Scary Robot"

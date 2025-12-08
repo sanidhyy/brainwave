@@ -1,7 +1,7 @@
-import brainwave from "./brainwave.svg";
+import reveo from "./brainwave.svg";
 import check from "./check.svg";
-import brainwaveSymbol from "./brainwave-symbol.svg";
-import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
+import reveoSymbol from "./brainwave-symbol.svg";
+import reveoWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
 import pause from "./pause.svg";
 import gradient from "./gradient.png";
@@ -77,12 +77,12 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
-  brainwave,
+  reveo,
   check,
   check2,
   loading1,
-  brainwaveSymbol,
-  brainwaveWhiteSymbol,
+  reveoSymbol,
+  reveoWhiteSymbol,
   play,
   pause,
   gradient,
