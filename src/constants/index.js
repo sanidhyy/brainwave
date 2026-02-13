@@ -305,7 +305,7 @@ export const socials = [
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "https://twitter.com",
+    url: "https://x.com/_sanidhyy",
   },
   {
     id: "2",
