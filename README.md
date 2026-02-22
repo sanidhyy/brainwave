@@ -43,6 +43,8 @@
 
 Here is the folder structure of this app.
 
+<!--- FOLDER_STRUCTURE_START --->
+
 ```bash
 brainwave/
   |- public/
@@ -97,6 +99,8 @@ brainwave/
   |- vite.config.js
 ```
 
+<!--- FOLDER_STRUCTURE_END --->
+
 <br />
 
 ## :toolbox: Getting Started
@@ -134,6 +138,8 @@ You might encounter some bugs while using this app. You are more than welcome to
 
 Useful resources and dependencies that are used in Brainwave.
 
+<!--- DEPENDENCIES_START --->
+
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^11.0.12
 - [react](https://www.npmjs.com/package/react): ^18.2.0
 - [react-dom](https://www.npmjs.com/package/react-dom): ^18.2.0
@@ -152,6 +158,7 @@ Useful resources and dependencies that are used in Brainwave.
 - [postcss](https://www.npmjs.com/package/postcss): ^8.4.35
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.4.1
 - [vite](https://www.npmjs.com/package/vite): ^5.1.4
+<!--- DEPENDENCIES_END --->
 
 ## :coffee: Buy Me a Coffee
 
