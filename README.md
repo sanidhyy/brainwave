@@ -44,61 +44,27 @@
 Here is the folder structure of this app.
 
 <!--- FOLDER_STRUCTURE_START --->
-
 ```bash
 brainwave/
   |- public/
-    |-- apple-icon.png
-    |-- favicon.ico
-    |-- favicon1.png
-    |-- favicon2.png
   |- src/
     |-- assets/
-        |--- benefits/
-        |--- collaboration/
-        |--- hero/
-        |--- notification/
-        |--- pricing/
-        |--- roadmap/
-        |--- services/
-        |--- socials/
-        |--- svg/
-        |--- index.js
     |-- components/
-        |--- design/
-        |--- Benefits.jsx
-        |--- Button.jsx
-        |--- Collaboration.jsx
-        |--- CompanyLogos.jsx
-        |--- Footer.jsx
-        |--- Generating.jsx
-        |--- Header.jsx
-        |--- Heading.jsx
-        |--- Hero.jsx
-        |--- Notification.jsx
-        |--- Pricing.jsx
-        |--- PricingList.jsx
-        |--- Roadmap.jsx
-        |--- Section.jsx
-        |--- Services.jsx
-        |--- Tagline.jsx
     |-- config/
-        |--- index.js
     |-- constants/
-        |--- index.js
     |-- App.jsx
     |-- index.css
     |-- main.jsx
   |- .eslintrc.cjs
   |- .gitignore
   |- index.html
+  |- netlify.toml
   |- package-lock.json
   |- package.json
   |- postcss.config.js
   |- tailwind.config.js
   |- vite.config.js
 ```
-
 <!--- FOLDER_STRUCTURE_END --->
 
 <br />
@@ -139,25 +105,23 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and dependencies that are used in Brainwave.
 
 <!--- DEPENDENCIES_START --->
-
-- [framer-motion](https://www.npmjs.com/package/framer-motion): ^11.0.12
-- [react](https://www.npmjs.com/package/react): ^18.2.0
-- [react-dom](https://www.npmjs.com/package/react-dom): ^18.2.0
+- [@types/react](https://www.npmjs.com/package/@types/react): ^18.3.12
+- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^18.3.1
+- [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react): ^5.1.4
+- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.24
+- [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): ^7.0.1
+- [eslint-plugin-react-refresh](https://www.npmjs.com/package/eslint-plugin-react-refresh): ^0.5.0
+- [framer-motion](https://www.npmjs.com/package/framer-motion): ^12.34.0
+- [postcss](https://www.npmjs.com/package/postcss): ^8.5.6
+- [react](https://www.npmjs.com/package/react): ^18.3.1
+- [react-dom](https://www.npmjs.com/package/react-dom): ^18.3.1
 - [react-just-parallax](https://www.npmjs.com/package/react-just-parallax): ^3.1.16
-- [react-router-dom](https://www.npmjs.com/package/react-router-dom): ^6.22.3
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom): ^7.13.0
 - [scroll-lock](https://www.npmjs.com/package/scroll-lock): ^2.1.5
-- [typewriter-effect](https://www.npmjs.com/package/typewriter-effect): ^2.21.0
-- [@types/react](https://www.npmjs.com/package/@types/react): ^18.2.56
-- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^18.2.19
-- [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react): ^4.2.1
-- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.18
-- [eslint](https://www.npmjs.com/package/eslint): ^8.56.0
-- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react): ^7.33.2
-- [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): ^4.6.0
-- [eslint-plugin-react-refresh](https://www.npmjs.com/package/eslint-plugin-react-refresh): ^0.4.5
-- [postcss](https://www.npmjs.com/package/postcss): ^8.4.35
-- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.4.1
-- [vite](https://www.npmjs.com/package/vite): ^5.1.4
+- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.4.17
+- [typewriter-effect](https://www.npmjs.com/package/typewriter-effect): ^2.22.0
+- [vite](https://www.npmjs.com/package/vite): ^7.3.1
+
 <!--- DEPENDENCIES_END --->
 
 ## :coffee: Buy Me a Coffee
