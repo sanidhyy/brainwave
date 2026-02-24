@@ -50,8 +50,27 @@ brainwave/
   |- src/
     |-- assets/
     |-- components/
+      |--- design/
+      |--- Benefits.jsx
+      |--- Button.jsx
+      |--- Collaboration.jsx
+      |--- CompanyLogos.jsx
+      |--- Footer.jsx
+      |--- Generating.jsx
+      |--- Header.jsx
+      |--- Heading.jsx
+      |--- Hero.jsx
+      |--- Notification.jsx
+      |--- Pricing.jsx
+      |--- PricingList.jsx
+      |--- Roadmap.jsx
+      |--- Section.jsx
+      |--- Services.jsx
+      |--- Tagline.jsx
     |-- config/
+      |--- index.js
     |-- constants/
+      |--- index.js
     |-- App.jsx
     |-- index.css
     |-- main.jsx
