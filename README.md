@@ -131,7 +131,7 @@ Useful resources and dependencies that are used in Brainwave.
 - [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): ^7.1.1
 - [eslint-plugin-react-refresh](https://www.npmjs.com/package/eslint-plugin-react-refresh): ^0.5.3
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^12.42.2
-- [postcss](https://www.npmjs.com/package/postcss): ^8.5.16
+- [postcss](https://www.npmjs.com/package/postcss): ^8.5.18
 - [react](https://www.npmjs.com/package/react): ^18.3.1
 - [react-dom](https://www.npmjs.com/package/react-dom): ^18.3.1
 - [react-just-parallax](https://www.npmjs.com/package/react-just-parallax): ^3.1.16
