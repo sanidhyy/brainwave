@@ -126,12 +126,12 @@ Useful resources and dependencies that are used in Brainwave.
 <!--- DEPENDENCIES_START --->
 - [@types/react](https://www.npmjs.com/package/@types/react): ^18.3.12
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^18.3.1
-- [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react): ^6.0.3
+- [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react): ^6.0.4
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.5.4
 - [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): ^7.1.1
 - [eslint-plugin-react-refresh](https://www.npmjs.com/package/eslint-plugin-react-refresh): ^0.5.3
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^12.42.2
-- [postcss](https://www.npmjs.com/package/postcss): ^8.5.20
+- [postcss](https://www.npmjs.com/package/postcss): ^8.5.23
 - [react](https://www.npmjs.com/package/react): ^18.3.1
 - [react-dom](https://www.npmjs.com/package/react-dom): ^18.3.1
 - [react-just-parallax](https://www.npmjs.com/package/react-just-parallax): ^3.1.16
