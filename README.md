@@ -134,7 +134,7 @@ Useful resources and dependencies that are used in Brainwave.
 <!--- DEPENDENCIES_START --->
 - [@types/react](https://www.npmjs.com/package/@types/react): ^18.3.12
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^18.3.1
-- [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react): ^6.1.0
+- [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react): ^6.1.1
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.5.4
 - [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): ^7.1.1
 - [eslint-plugin-react-refresh](https://www.npmjs.com/package/eslint-plugin-react-refresh): ^0.5.6
