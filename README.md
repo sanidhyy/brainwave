@@ -146,7 +146,7 @@ Useful resources and dependencies that are used in Brainwave.
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom): ^7.18.4
 - [scroll-lock](https://www.npmjs.com/package/scroll-lock): ^2.1.5
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.4.17
-- [typewriter-effect](https://www.npmjs.com/package/typewriter-effect): ^2.22.0
+- [typewriter-effect](https://www.npmjs.com/package/typewriter-effect): ^3.3.0
 - [vite](https://www.npmjs.com/package/vite): ^8.3.4
 
 <!--- DEPENDENCIES_END --->
